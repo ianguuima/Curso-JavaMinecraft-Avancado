@@ -13,12 +13,11 @@ public class UserManager {
         users = new ArrayList<>();
     }
 
-    public User addUser(User user){
+    public void addUser(User user){
         if (getUser(user.getName()) == null) {
             users.add(user);
             System.out.println("Usuario adicionado!");
         }
-        return user;
     }
 
     public User getUser(String username){
