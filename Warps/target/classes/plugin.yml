@@ -1,0 +1,5 @@
+name: Warps
+version: 1.0-SNAPSHOT
+main: me.warps.Warps
+commands:
+  warp:

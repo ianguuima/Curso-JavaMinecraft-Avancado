@@ -1,0 +1,5 @@
+name: Warps
+version: ${project.version}
+main: me.warps.Warps
+commands:
+  warp:
